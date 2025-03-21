@@ -1,4 +1,4 @@
-package com.example.rtnotes
+package com.example.rtnotes.database
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -21,6 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.example.rtnotes.NoteViewModel
 
 
 @Composable

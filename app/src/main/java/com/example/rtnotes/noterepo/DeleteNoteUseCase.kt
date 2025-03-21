@@ -1,5 +1,6 @@
-package com.example.rtnotes
+package com.example.rtnotes.noterepo
 
+import com.example.rtnotes.Note
 import javax.inject.Inject
 
 class DeleteNoteUseCase @Inject constructor(

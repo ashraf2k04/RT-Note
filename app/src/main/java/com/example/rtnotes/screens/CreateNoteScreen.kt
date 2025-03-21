@@ -1,4 +1,4 @@
-package com.example.rtnotes
+package com.example.rtnotes.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,6 +21,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.unit.dp
+import com.example.rtnotes.Note
+import com.example.rtnotes.NoteViewModel
 import java.lang.reflect.Modifier
 
 @OptIn(ExperimentalMaterial3Api::class)

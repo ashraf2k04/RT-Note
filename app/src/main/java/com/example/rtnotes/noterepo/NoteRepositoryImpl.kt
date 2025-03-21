@@ -1,5 +1,6 @@
-package com.example.rtnotes
+package com.example.rtnotes.noterepo
 
+import com.example.rtnotes.Note
 import com.example.rtnotes.database.NoteDao
 import com.example.rtnotes.database.NoteEntity
 import kotlinx.coroutines.flow.Flow
