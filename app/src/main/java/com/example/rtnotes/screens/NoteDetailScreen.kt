@@ -21,7 +21,7 @@ import com.example.rtnotes.Note
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun NoteDetailScreen(note: Note, navController: NavController) {
+fun NoteDetailScreen(note: Note) {
     val context = LocalContext.current
 
     Scaffold(

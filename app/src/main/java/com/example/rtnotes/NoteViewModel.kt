@@ -14,7 +14,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class NoteViewModel @Inject constructor(
-    private val getAllNotesUseCase: GetAllNotesUseCase,
+    getAllNotesUseCase: GetAllNotesUseCase,
     private val addNoteUseCase: AddNoteUseCase,
     private val deleteNoteUseCase: DeleteNoteUseCase
 ) : ViewModel() {
